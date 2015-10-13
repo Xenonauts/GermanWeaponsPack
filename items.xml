@@ -6,9 +6,9 @@
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <LastAuthor>John</LastAuthor>
-  <LastSaved>2014-02-17T20:29:51Z</LastSaved>
-  <Version>14.00</Version>
+  <LastAuthor>PaulJay</LastAuthor>
+  <LastSaved>2015-10-13T01:08:38Z</LastSaved>
+  <Version>11.5606</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <DownloadComponents/>
@@ -27,38 +27,23 @@
   <Style ss:ID="Default" ss:Name="Normal">
    <Alignment ss:Vertical="Bottom"/>
    <Borders/>
-   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Font x:Family="Swiss"/>
    <Interior/>
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s62" ss:Name="Normal 2">
+  <Style ss:ID="s23" ss:Name="Normal_Sheet1">
    <Alignment ss:Vertical="Bottom"/>
    <Borders/>
+   <Font x:Family="Swiss"/>
    <Interior/>
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s63" ss:Name="Normal 2 2">
-   <Alignment ss:Vertical="Bottom"/>
-   <Borders/>
-   <Font ss:FontName="Arial" x:Family="Swiss"/>
-   <Interior/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="s64" ss:Name="Normal_Sheet1">
-   <Alignment ss:Vertical="Bottom"/>
-   <Borders/>
-   <Font ss:FontName="Arial" x:Family="Swiss"/>
-   <Interior/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="s65">
+  <Style ss:ID="s24">
    <Borders/>
   </Style>
-  <Style ss:ID="s66">
+  <Style ss:ID="s25">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
@@ -68,7 +53,7 @@
    </Borders>
    <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s67">
+  <Style ss:ID="s26">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
@@ -76,10 +61,10 @@
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
    </Borders>
-   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss"/>
+   <Font x:CharSet="238" x:Family="Swiss"/>
    <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s68">
+  <Style ss:ID="s27">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
@@ -87,91 +72,69 @@
    </Borders>
    <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s70" ss:Parent="s64">
-   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  <Style ss:ID="s29" ss:Parent="s23">
    <Interior/>
    <NumberFormat ss:Format="@"/>
-  </Style>
-  <Style ss:ID="s71" ss:Parent="s64">
-   <Interior/>
-   <NumberFormat ss:Format="@"/>
-  </Style>
-  <Style ss:ID="s72">
-   <Protection ss:Protected="0"/>
-  </Style>
-  <Style ss:ID="s73">
-   <Borders/>
-   <Interior/>
-  </Style>
-  <Style ss:ID="s76">
-   <Alignment ss:Vertical="Bottom"/>
-   <Borders/>
-  </Style>
-  <Style ss:ID="s78" ss:Parent="s63">
-   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
-   <Interior/>
-  </Style>
-  <Style ss:ID="s79" ss:Parent="s63">
-   <Borders/>
-   <Interior/>
-  </Style>
-  <Style ss:ID="s80" ss:Parent="s63">
-   <Alignment ss:Vertical="Center"/>
-   <Interior/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="258" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="13.3125">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="13.3125">
    <Column ss:AutoFitWidth="0" ss:Width="220.5"/>
    <Column ss:AutoFitWidth="0" ss:Width="150" ss:Span="1"/>
    <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="210.75"/>
    <Column ss:AutoFitWidth="0" ss:Width="258"/>
    <Column ss:AutoFitWidth="0" ss:Width="150"/>
    <Column ss:Width="69"/>
-   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s65">
-    <Cell ss:StyleID="s66"><Data ss:Type="String">Name</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">Sell value</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">Alenium value</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Type</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Image</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">DestroyText</Data></Cell>
-    <Cell ss:StyleID="s68"><Data ss:Type="String">Storage space</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s24">
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Sell value</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Alenium value</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Image</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">DestroyText</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Storage space</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">ammo.ballistic.gw_submachinegun</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">ammo.ballistic.gw_submachinegun</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">weapon.gw_rifle</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">weapon.gw_rifle</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">weapon.gw_machinegun</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">weapon.gw_machinegun</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
    <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
@@ -183,7 +146,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>91</TopRowBottomPane>
+   <TopRowBottomPane>1</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -191,8 +154,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>114</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>4</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
