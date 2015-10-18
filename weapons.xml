@@ -11,7 +11,7 @@
  xmlns:udcxf="http://schemas.microsoft.com/data/udc/xmlfile">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <LastAuthor>PaulJay</LastAuthor>
-  <Created>2011-04-10T13:25:47Z</Created>
+  <Created>2015-10-10T13:25:47Z</Created>
   <LastSaved>2015-10-13T11:50:41Z</LastSaved>
   <Version>11.5606</Version>
  </DocumentProperties>
@@ -55,7 +55,7 @@
  </Styles>
  <Worksheet ss:Name="Sheet1">
   <Names>
-   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Sheet1!R1C1:R41C13"
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Sheet1!R1C1:R39C13"
     ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="4" x:FullColumns="1"
@@ -110,9 +110,9 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s24"><Data ss:Type="String">weapon.gw_submachinegun</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">weapons/ballistic/GW_SubmachineGun</Data><NamedCell
+    <Cell ss:StyleID="s24"><Data ss:Type="String">weapons/ballistic/GW_Submachinegun</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">weapons/ballistic/GW_SubmachineGun</Data><NamedCell
+    <Cell ss:StyleID="s24"><Data ss:Type="String">weapons/ballistic/GW_Submachinegun</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s24"><Data ss:Type="String">ballistic</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -140,9 +140,9 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s24"><Data ss:Type="String">weapon.gw_battlerifle</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">weapons/ballistic/GW_BattleRifle</Data><NamedCell
+    <Cell ss:StyleID="s24"><Data ss:Type="String">weapons/ballistic/GW_Battlerifle</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">weapons/ballistic/GW_BattleRifle</Data><NamedCell
+    <Cell ss:StyleID="s24"><Data ss:Type="String">weapons/ballistic/GW_Battlerifle</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s24"><Data ss:Type="String">ballistic</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -162,7 +162,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">ammo.ballistic.gw_battlerifle</Data><NamedCell
+    <Cell ss:StyleID="s24"><Data ss:Type="String">ammo.ballistic.sniper</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s25"><Data ss:Type="Number">30</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
@@ -186,13 +186,13 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s25"><Data ss:Type="Number">0.4</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s25"><Data ss:Type="Number">8</Data><NamedCell
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">9</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s25"><Data ss:Type="Number">5</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">ammo.ballistic.gw_machinegun</Data><NamedCell
+    <Cell ss:StyleID="s24"><Data ss:Type="String">ammo.ballistic.machinegun</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s25"><Data ss:Type="Number">40</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
@@ -225,15 +225,16 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>2</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+     <RangeSelection>R2</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C16:R1029C16</Range>
+   <Range>R6C16:R1027C16,R2C16:R4C16</Range>
    <Type>List</Type>
    <UseBlank/>
    <CellRangeList/>

@@ -32,7 +32,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s23" ss:Name="Normal_Sheet1">
+  <Style ss:ID="s21" ss:Name="Normal_Sheet1">
    <Alignment ss:Vertical="Bottom"/>
    <Borders/>
    <Font x:Family="Swiss"/>
@@ -40,10 +40,10 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s24">
+  <Style ss:ID="s22">
    <Borders/>
   </Style>
-  <Style ss:ID="s25">
+  <Style ss:ID="s23">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
@@ -53,7 +53,7 @@
    </Borders>
    <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s26">
+  <Style ss:ID="s24">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
@@ -64,7 +64,7 @@
    <Font x:CharSet="238" x:Family="Swiss"/>
    <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s27">
+  <Style ss:ID="s25">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
@@ -72,7 +72,12 @@
    </Borders>
    <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s29" ss:Parent="s23">
+  <Style ss:ID="s27" ss:Parent="s21">
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s28" ss:Parent="s21">
    <Interior/>
    <NumberFormat ss:Format="@"/>
   </Style>
@@ -86,45 +91,45 @@
    <Column ss:AutoFitWidth="0" ss:Width="258"/>
    <Column ss:AutoFitWidth="0" ss:Width="150"/>
    <Column ss:Width="69"/>
-   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s24">
-    <Cell ss:StyleID="s25"><Data ss:Type="String">Name</Data></Cell>
-    <Cell ss:StyleID="s25"><Data ss:Type="String">Sell value</Data></Cell>
-    <Cell ss:StyleID="s25"><Data ss:Type="String">Alenium value</Data></Cell>
-    <Cell ss:StyleID="s26"><Data ss:Type="String">Type</Data></Cell>
-    <Cell ss:StyleID="s26"><Data ss:Type="String">Image</Data></Cell>
-    <Cell ss:StyleID="s25"><Data ss:Type="String">DestroyText</Data></Cell>
-    <Cell ss:StyleID="s27"><Data ss:Type="String">Storage space</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s22">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sell value</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Alenium value</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Image</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">DestroyText</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Storage space</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s29"><Data ss:Type="String">ammo.ballistic.gw_submachinegun</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s29"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">weapon.gw_battlerifle</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s29"><Data ss:Type="String">weapon.gw_rifle</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">weapon.gw_machinegun</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s29"><Data ss:Type="String">weapon.gw_machinegun</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">ammo.ballistic.gw_submachinegun</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
   </Table>
@@ -161,7 +166,7 @@
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C4:R761C4</Range>
+   <Range>R2C4:R757C4</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;Normal,Capped,Uncapped,Airplane,Vehicle,Unlimited,UnlimitedOnResearch&quot;</Value>

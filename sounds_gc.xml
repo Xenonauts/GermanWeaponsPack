@@ -2,8 +2,20 @@
 <Sounds>
   <!-- The list of sounds & waves which aren't footsteps, destruction and doors. -->
   <General>
-    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon MP5 Burst" volume="1.0" group="1" comment="">
-      <Wave>audio/sfx/weapons/weapon_mp5_burst.ogg</Wave>
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Submachine Gun Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_submachine_burst.ogg</Wave>
+    </Sound>
+    
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Machine Gun Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_machinegun_10burst.ogg</Wave>
+    </Sound>
+    
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Battle Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_battlerifle_burst.ogg</Wave>
+    </Sound>
+    
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Submachine Gun Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_submachine_single.ogg</Wave>
     </Sound>
   </General>
 </Sounds>
