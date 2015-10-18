@@ -1,20 +1,20 @@
-# German weapons Pack (EN)
+## German weapons Pack (EN)
 
-## Version
-0.1
+### Version
+1.0
 
-## Authors:
+### Authors:
 - PaulJay (creator)
 
 
 
-## Summary:
+### Summary:
 This mod adds some German weapons of Cold War era.
 
-### Content:
+#### Content:
 - HK MP5 (weapon.gw_submachinegun)
 - HK G3  (weapon.gw_rifle)
 - MG3    (weapon.gw_machinegun)
 
-## Notes:
+### Notes:
 The images for the G3 and MG3 are derived from images provided by the original game (Xenonauts by Goldhawk Interactive).
