@@ -13,7 +13,7 @@ This mod adds some German weapons of Cold War era.
 
 #### Content:
 - HK MP5 (weapon.gw_submachinegun)
-- HK G3  (weapon.gw_rifle)
+- HK G3  (weapon.gw_battlerifle)
 - MG3    (weapon.gw_machinegun)
 
 ### Notes:
