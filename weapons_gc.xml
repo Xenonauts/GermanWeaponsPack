@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Weapons>
 
-  <Modifiers xenonautAccuracyModifier="1" alienAccuracyModifier="1.25" coverModifier="0.9" />
+	<Modifiers xenonautAccuracyModifier="1" alienAccuracyModifier="1.25" coverModifier="0.9" />
   
-<!-- This file controls the Ground Combat stats for all weapons and equipment -->
-<!-- when adding a weapon here, remember to add its GS equivalent to weapons.xml -->
-
-<!--                            -->
-<!--  	  Ballistic Weapons		-->
-<!--                            -->
+	<!-- This file controls the Ground Combat stats for all weapons and equipment -->
+	<!-- when adding a weapon here, remember to add its GS equivalent to weapons.xml -->
+	
+	<!--                            -->
+	<!--  	  Ballistic Weapons		-->
+	<!--                            -->
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_submachinegun" bulletType="normal" emptySound="Empty Click 1">
 		<props range="10" hands="2" recoil="0" weight="4" isHeavy="0" clipSize="30" reloadAPCost="20" reloadSound="Weapon Pistol Reload" reactionModifier="1.5" />
-		<SingleShot sound="Weapon Submachine Gun Single" delay="0.6" suppressionValue="20" suppressionRadius="1">
+		<SingleShot sound="Weapon GW Submachine Gun Single" delay="0.6" suppressionValue="20" suppressionRadius="1">
 			<Set1 ap="28" accuracy="45" />
 			<Set2 ap="40" accuracy="80" />
 		</SingleShot>
-		<BurstFire ap="45" accuracy="45" sound="Weapon Submachine Gun Burst" delay="0.6" burstdelay="0.1" shotCount="3" suppressionValue="50" suppressionRadius="1.5" />
+		<BurstFire ap="45" accuracy="45" sound="Weapon GW Submachine Gun Burst" delay="0.6" burstdelay="0.1" shotCount="3" suppressionValue="50" suppressionRadius="1.5" />
 		<GUIImage name="gui/weapons/GW_Submachinegun" />
-		<GroundImage name="grounditemimages/ballistic_submachinegun.png"/>
+		<GroundImage name="grounditemimages/mag_carbine.png" />
 		<Ammos>
 			<Ammo name="ammo.ballistic.gw_submachinegun" type="kinetic" damage="30" mitigation="0">
-				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
+				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0" />
+				<Impact spectre="particles/bulletplume/bulletplume" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_battlerifle" bulletType="normal" emptySound="Empty Click 1">
 		<props range="20" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="20" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1" />
-		<SingleShot sound="Weapon Assault Rifle Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
+		<SingleShot sound="Weapon Sniper Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
 			<Set1 ap="28" accuracy="45" />
 			<Set2 ap="40" accuracy="80" />
 			<Set3 ap="55" accuracy="130" />
 		</SingleShot>
-		<BurstFire ap="60" accuracy="40" sound="Weapon Assault Rifle Burst" delay="0.6" burstdelay="0.1" shotCount="3" suppressionValue="65" suppressionRadius="1.5" />
-		<GUIImage name="gui/weapons/GW_Battlerifle.png"/>
-		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<BurstFire ap="60" accuracy="40" sound="Weapon GW Battle Rifle Burst" delay="0.6" burstdelay="0.1" shotCount="3" suppressionValue="65" suppressionRadius="1.5" />
+		<GUIImage name="gui/weapons/GW_Battlerifle.png" />
+		<GroundImage name="grounditemimages/ballistic_rifle.png" />
 		<Ammos>
 			<Ammo name="ammo.ballistic.sniper" type="kinetic" damage="35" mitigation="10" isHypervelocity="0">
-				<Projectile spectre="projectiles/bullet/bullet" speed="1500" delay="2.5" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
+				<Projectile spectre="projectiles/bullet/bullet" speed="1500" delay="2.5" showAfterDistance="60.0" />
+				<Impact spectre="particles/bulletplume/bulletplume" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -48,13 +48,13 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_machinegun" bulletType="normal" emptySound="Empty Click 1">
 		<props range="25" hands="2" recoil="70" weight="9" isHeavy="0" clipSize="30" reloadAPCost="35" reloadSound="Weapon Machinegun Reload" strengthLimited="1" reactionModifier="0.5" />
 		<SingleShot />
-		<BurstFire ap="60" accuracy="35" sound="Weapon Machinegun Burst" delay="0.7" burstdelay="0.1" shotCount="10" suppressionValue="120" suppressionRadius="2" />
-		<GUIImage name="gui/weapons/GW_Machinegun.png"/>
-		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
+		<BurstFire ap="60" accuracy="35" sound="Weapon GW Machine Gun Burst" delay="0.7" burstdelay="0.1" shotCount="10" suppressionValue="120" suppressionRadius="2" />
+		<GUIImage name="gui/weapons/GW_Machinegun.png" />
+		<GroundImage name="grounditemimages/ballistic_machinegun.png" />
 		<Ammos>
 			<Ammo name="ammo.ballistic.machinegun" type="kinetic" damage="30" mitigation="5">
-				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
+				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0" />
+				<Impact spectre="particles/bulletplume/bulletplume" />
 			</Ammo>
 		</Ammos>
 	</Weapon>

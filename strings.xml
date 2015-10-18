@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Solver</Author>
+  <LastAuthor>Paul Mc Cain</LastAuthor>
+  <Created>2011-04-13T20:36:37Z</Created>
+  <LastSaved>2015-10-17T12:57:05Z</LastSaved>
+  <Version>11.5606</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6315</WindowHeight>
+  <WindowWidth>13425</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>214</TabRatio>
+  <DisplayDrawingObjects>PlaceHolders</DisplayDrawingObjects>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="strings">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="246"/>
+   <Column ss:AutoFitWidth="0" ss:Width="844.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
+    <Cell><Data ss:Type="String">Ballistic Submachine Gun (MP5 AX)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="261">
+    <Cell><Data ss:Type="String">weapon.gw_submachinegun.desc</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Ballistic Submachine Gun (MP5 AX):&lt;/b&gt;&#10;&#10;The class of submachine guns closes the gab between shotguns and rifles. Other than with shotguns you can engange foes at medium range using submachine guns, however due to their shorter range they will suffer some accuracy penalties. Other then with rifles a burst fired from a submachine gun consumes only 45%% of soldiers TU - so if staying stationary in a particular position this allows to fire a sequence of two bursts inflicting very high damage. This makes the submachine guns very powerful assault weapons.&#10;&#10;Also note that 1.5x reaction modifier makes your soldiers more likely to perform reaction fire and less likely to receive it.&#10;&#10;Range:                                                    10&#10;Damage:                                                 25 Kinetic&#10;Suppression:                                           20 Single / 50 Burst&#10;Mitigation:                                                0&#10;Ammo Capacity:                                     30 shots&#10;Reaction Modifier:                                   1.5x&#10;Reload Cost:                                           25 TU&#10;&#10;Fire Modes:&#10;- 28%% TU                                                 45 Acc x 1 shot&#10;- 40%% TU                                                 80 Acc x 1 shot&#10;&#10;- 45%% TU                                                 45 Acc x 3 shot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.gw_battlerifle</Data></Cell>
+    <Cell><Data ss:Type="String">Ballistic Battle Rifle (G3 AX)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="228.75">
+    <Cell><Data ss:Type="String">weapon.gw_battlerifle.desc</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Ballistic Battle Rifle (G3 AX):&lt;/b&gt;&#10;&#10;Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role. Due to the use of the same type of ammunition as the precision rifle (G3 SG/1) the German G3 AX battle rifle is able to inflict more damage to the enemies than the other available assault rifles, hower it is less accurate when using burst fire mode.&#10;&#10;Range:                                                    20&#10;Damage:                                                 35 Kinetic&#10;Suppression:                                           25 Single / 65 Burst&#10;Mitigation:                                                10&#10;Ammo Capacity:                                     20 shots&#10;Reaction Modifier:                                   1x&#10;Reload Cost:                                           25 TU&#10;&#10;Fire Modes:&#10;- 28%% TU                                                 45 Acc x 1 shot&#10;- 40%% TU                                                 80 Acc x 1 shot&#10;- 55%% TU                                               130 Acc x 1 shot&#10;&#10;- 60%% TU                                                40 Acc x 3 shots</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.gw_machinegun</Data></Cell>
+    <Cell><Data ss:Type="String">Ballistic Machinegun (MG3)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="252.75">
+    <Cell><Data ss:Type="String">weapon.gw_machinegun.desc</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Ballistic Machinegun (MG3):&lt;/b&gt;&#10;&#10;Machineguns fire long bursts that can inflict heavy damage and are excellent for suppressing enemies. Usually a burst consumes 80%% of the soldier's TU to fire - limiting the mobility of the weapon. Thanks to its high fire rate the German MG3 requires only 65%% TU for a single burst giving the soldier more time to get in place or to take cover.&#10;&#10;The machineguns are also Heavy weapons, meaning a strong soldier is needed to use them effectively. They use the lower of ACC and STR to determine accuracy and an additional penalty is incurred if the soldier has less than 70 STR (due to the 70 Recoil). &#10;&#10;Range:                                                    25&#10;Damage:                                                 30 Kinetic&#10;Suppression:                                           120 Burst&#10;Mitigation:                                                5&#10;Ammo Capacity:                                     30 shots&#10;Reaction Modifier:                                   0.5x&#10;Recoil:                                                     70 Recoil&#10;Reload Cost:                                           35 TU&#10;&#10;Fire Modes:&#10;- 65%% TU                                                35 Acc x 10 shots</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.gw_submachinegun</Data></Cell>
+    <Cell><Data ss:Type="String">Submachine Gun Ammo (MP5)</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

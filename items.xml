@@ -101,6 +101,14 @@
     <Cell ss:StyleID="s25"><Data ss:Type="String">Storage space</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s27"><Data ss:Type="String">weapon.gw_battlerifle</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
@@ -118,14 +126,6 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s28"><Data ss:Type="String">ammo.ballistic.gw_submachinegun</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s22"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s28"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
@@ -159,15 +159,14 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>3</ActiveRow>
-     <RangeSelection>R4C1:R5C7</RangeSelection>
+     <ActiveRow>4</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C4:R758C4</Range>
+   <Range>R2C4:R757C4</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;Normal,Capped,Uncapped,Airplane,Vehicle,Unlimited,UnlimitedOnResearch&quot;</Value>
