@@ -9,6 +9,10 @@
     <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Machine Gun Burst" volume="1.0" group="1" comment="">
       <Wave>audio/sfx/weapons/weapon_gw_machinegun_10burst.ogg</Wave>
     </Sound>
+
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Machine Gun Burst 15" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_machinegun_15burst.ogg</Wave>
+    </Sound>
     
     <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Battle Rifle Burst" volume="1.0" group="1" comment="">
       <Wave>audio/sfx/weapons/weapon_gw_battlerifle_burst.ogg</Wave>

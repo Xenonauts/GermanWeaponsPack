@@ -28,13 +28,13 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_battlerifle" bulletType="normal" emptySound="Empty Click 1">
-		<props range="20" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="20" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1" />
+		<props range="20" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="20" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="0.8" />
 		<SingleShot sound="Weapon Sniper Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
-			<Set1 ap="28" accuracy="45" />
-			<Set2 ap="40" accuracy="80" />
-			<Set3 ap="55" accuracy="130" />
+			<Set1 ap="32" accuracy="45" />  <!- old: 28 ->
+			<Set2 ap="45" accuracy="80" />  <!- old: 40 ->
+			<Set3 ap="60" accuracy="130" /> <!- old: 55 ->
 		</SingleShot>
-		<BurstFire ap="60" accuracy="40" sound="Weapon GW Battle Rifle Burst" delay="0.6" burstdelay="0.1" shotCount="3" suppressionValue="65" suppressionRadius="1.5" />
+		<BurstFire ap="65" accuracy="40" sound="Weapon GW Battle Rifle Burst" delay="0.6" burstdelay="0.1" shotCount="3" suppressionValue="65" suppressionRadius="1.5" />
 		<GUIImage name="gui/weapons/GW_Battlerifle.png" />
 		<GroundImage name="grounditemimages/ballistic_rifle.png" />
 		<Ammos>
@@ -48,15 +48,18 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_machinegun" bulletType="normal" emptySound="Empty Click 1">
 		<props range="25" hands="2" recoil="70" weight="9" isHeavy="0" clipSize="30" reloadAPCost="35" reloadSound="Weapon Machinegun Reload" strengthLimited="1" reactionModifier="0.5" />
 		<SingleShot />
-		<BurstFire ap="60" accuracy="35" sound="Weapon GW Machine Gun Burst" delay="0.7" burstdelay="0.1" shotCount="10" suppressionValue="120" suppressionRadius="2" />
+		<BurstFire ap="80" accuracy="35" sound="Weapon GW Machine Gun Burst 15" delay="0.7" burstdelay="0.1" shotCount="15" suppressionValue="120" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/GW_Machinegun.png" />
 		<GroundImage name="grounditemimages/ballistic_machinegun.png" />
 		<Ammos>
-			<Ammo name="ammo.ballistic.machinegun" type="kinetic" damage="30" mitigation="5">
+			<Ammo name="ammo.ballistic.machinegun" type="kinetic" damage="20" mitigation="5">
 				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0" />
 				<Impact spectre="particles/bulletplume/bulletplume" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
+
+</Weapons>
+
 
 </Weapons>
