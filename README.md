@@ -1,7 +1,7 @@
 ## German weapons Pack (EN)
 
 ### Version
-1.1
+V1.1
 
 ### Authors:
 - PaulJay (creator)
