@@ -122,7 +122,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">16</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="Number">8</Data><NamedCell
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">0.9</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -154,7 +154,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s25"><Data ss:Type="Number">30</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data><NamedCell
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0.9</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s25"><Data ss:Type="Number">4</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
