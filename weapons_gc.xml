@@ -61,7 +61,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_machinegun" bulletType="normal" emptySound="Empty Click 1">
 		<props range="25" hands="2" recoil="70" weight="8" isHeavy="0" clipSize="30" reloadAPCost="35" reloadSound="Weapon Machinegun Reload" strengthLimited="1" reactionModifier="0.5" />
 		<SingleShot />
-		<BurstFire ap="80" accuracy="35" sound="Weapon GW Machine Gun Burst" delay="0.7" burstdelay="0.1" shotCount="15" suppressionValue="120" suppressionRadius="2" />
+		<BurstFire ap="80" accuracy="35" sound="Weapon GW Machine Gun Burst 15" delay="0.7" burstdelay="0.067" shotCount="15" suppressionValue="120" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/GW_Machinegun.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
