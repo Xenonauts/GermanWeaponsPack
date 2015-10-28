@@ -58,8 +58,8 @@ Reaction Modifier:                                    1.5x
 Reload Cost:                                            15 TU
 
 Fire Modes:
-- 26%% TU                                                  45 Acc x 1 shot
-- 37%% TU                                                  80 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0">
+- 28%% TU                                                  45 Acc x 1 shot
+- 40%% TU                                                  80 Acc x 1 shot&#10;&#10;- 60%% TU                                                  45 Acc x 3 shot</Data></Cell></Row><Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
     <Cell><Data ss:Type="String">Ballistic Submachine Gun (MP5 AX)</Data></Cell>
    </Row>

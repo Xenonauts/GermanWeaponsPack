@@ -13,10 +13,11 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_pistol" bulletType="normal" emptySound="Empty Click 1">
 		<props range="10" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="8" reloadAPCost="15" reloadSound="Weapon Pistol Reload" reactionModifier="1.5" />
 		<SingleShot sound="Weapon Pistol Single" delay="0.6" suppressionValue="20" suppressionRadius="1">
-			<Set1 ap="26" accuracy="45" />
-			<Set2 ap="37" accuracy="80" />
+			<Set1 ap="28" accuracy="45" />
+			<Set2 ap="40" accuracy="80" />
 		</SingleShot>
-		<GUIImage name="gui/weapons/gw_pistol" />	
+		<BurstFire ap="60" accuracy="45" sound="Weapon Pistol Burst" delay="0.6" burstdelay="0.4" shotCount="3" suppressionValue="60" suppressionRadius="1.5"/>
+		<GUIImage name="gui/weapons/gw_pistol" />
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.ballistic.pistol" type="kinetic" damage="30" mitigation="0">
