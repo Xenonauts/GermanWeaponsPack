@@ -52,7 +52,7 @@
 		<GUIImage name="gui/weapons/GW_Battlerifle.png"/>
 		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.sniper" type="kinetic" damage="32" mitigation="5" isHypervelocity="0">
+			<Ammo name="ammo.ballistic.sniper" type="kinetic" damage="30" mitigation="10" isHypervelocity="0">
 				<Projectile spectre="projectiles/bullet/bullet" speed="1500" delay="2.5" showAfterDistance="60.0" />
 				<Impact spectre="particles/bulletplume/bulletplume" />
 			</Ammo>
