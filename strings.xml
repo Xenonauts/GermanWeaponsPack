@@ -45,7 +45,7 @@
    <Column ss:AutoFitWidth="0" ss:Width="844.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.gw_pistol</Data></Cell><Cell><Data ss:Type="String">Ballistic Pistol (P7)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="270"><Cell><Data ss:Type="String">weapon.gw_pistol.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Ballistic Pistol (P7):&lt;/b&gt;
 
-Pistols are single-handed weapons with the same damage output and fire costs as rifles, but with shorter range and no burst fire. They are primarily useful as a sidearm for units equipped with precision rifles or heavy weapons, or when a unit has only one hand free (e.g. if they are carrying a combat shield in the other hand).
+Pistols are single-handed weapons with the same damage output and fire costs as rifles, but with shorter range. They are primarily useful as a sidearm for units equipped with precision rifles or heavy weapons, or when a unit has only one hand free (e.g. if they are carrying a combat shield in the other hand).
 
 Their 1.5x reaction fire modifier also makes them useful for scouting - they are more likely to perform reaction fire and less likely to receive it.
 
