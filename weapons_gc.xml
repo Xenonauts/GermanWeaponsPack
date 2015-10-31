@@ -16,7 +16,7 @@
 			<Set1 ap="26" accuracy="45" />
 			<Set2 ap="37" accuracy="80" />
 		</SingleShot>
-		<BurstFire ap="55" accuracy="45" sound="Weapon Pistol Burst" delay="0.6" burstdelay="0.4" shotCount="3" suppressionValue="60" suppressionRadius="1.5"/>
+		<BurstFire ap="56" accuracy="45" sound="Weapon Pistol Burst" delay="0.6" burstdelay="0.4" shotCount="3" suppressionValue="60" suppressionRadius="1.5"/>
 		<GUIImage name="gui/weapons/gw_pistol" />
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
@@ -44,7 +44,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_battlerifle" bulletType="normal" emptySound="Empty Click 1">
 		<props range="20" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="20" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1.0" />
 		<SingleShot sound="Weapon Sniper Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
-			<Set1 ap="31" accuracy="45" />
+			<Set1 ap="30" accuracy="45" />
 			<Set2 ap="43" accuracy="80" />
 			<Set3 ap="58" accuracy="130" />
 		</SingleShot>
