@@ -48,7 +48,7 @@
 			<Set2 ap="43" accuracy="80" />
 			<Set3 ap="58" accuracy="130" />
 		</SingleShot>
-		<BurstFire ap="64" accuracy="45" sound="Weapon GW Battle Rifle Burst" delay="0.6" burstdelay="0.1" shotCount="3" suppressionValue="65" suppressionRadius="1.5" />
+		<BurstFire ap="64" accuracy="45" sound="Weapon GW Battle Rifle Burst" delay="0.6" burstdelay="0.12" shotCount="3" suppressionValue="65" suppressionRadius="1.5" />
 		<GUIImage name="gui/weapons/GW_Battlerifle.png"/>
 		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
 		<Ammos>
