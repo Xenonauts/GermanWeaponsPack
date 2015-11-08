@@ -91,23 +91,23 @@
 		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/leanidle_sw" anim="leanidle_DNY"/>
 		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/leanidle_se" anim="leanidle_DK"/>
     
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_w" anim="injured_NY"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_e" anim="injured_K"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_n" anim="injured_E"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_s" anim="injured_D"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_nw" anim="injured_ENY"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_ne" anim="injured_EK"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_sw" anim="injured_DNY"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_se" anim="injured_DK"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_w" anim="injured_NY"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_e" anim="injured_K"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_n" anim="injured_E"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_s" anim="injured_D"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_nw" anim="injured_ENY"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_ne" anim="injured_EK"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_sw" anim="injured_DNY"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/injured_se" anim="injured_DK"/>
 
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_w" anim="crouchinjured_NY"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_e" anim="crouchinjured_K"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_n" anim="crouchinjured_E"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_s" anim="crouchinjured_D"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_nw" anim="crouchinjured_ENY"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_ne" anim="crouchinjured_EK"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_sw" anim="crouchinjured_DNY"/>
-    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_se" anim="crouchinjured_DK"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_w" anim="crouchinjured_NY"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_e" anim="crouchinjured_K"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_n" anim="crouchinjured_E"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_s" anim="crouchinjured_D"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_nw" anim="crouchinjured_ENY"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_ne" anim="crouchinjured_EK"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_sw" anim="crouchinjured_DNY"/>
+		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchinjured_se" anim="crouchinjured_DK"/>
 
 		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/singleshoot_w" anim="singleshot_NY"/>
 		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/singleshoot_e" anim="singleshot_K"/>
@@ -126,69 +126,33 @@
 		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/burstshoot_ne" anim="burstshot_EK"/>
 		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/burstshoot_sw" anim="burstshot_DNY"/>
 		<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/burstshoot_se" anim="burstshot_DK"/>
-
+		
     <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_w" anim="crouchsingleshot_NY"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_e" anim="crouchsingleshot_K"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_n" anim="crouchsingleshot_E"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_s" anim="crouchsingleshot_D"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_nw" anim="crouchsingleshot_ENY"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_ne" anim="crouchsingleshot_EK"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_sw" anim="crouchsingleshot_DNY"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_se" anim="crouchsingleshot_DK"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_e" anim="crouchsingleshot_K"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_n" anim="crouchsingleshot_E"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_s" anim="crouchsingleshot_D"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_nw" anim="crouchsingleshot_ENY"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_ne" anim="crouchsingleshot_EK"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_sw" anim="crouchsingleshot_DNY"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchsingleshoot_se" anim="crouchsingleshot_DK"/>
 
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_w" anim="crouchburstshot_NY"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_e" anim="crouchburstshot_K"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_n" anim="crouchburstshot_E"/>
- 	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_s" anim="crouchburstshot_D"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_nw" anim="crouchburstshot_ENY"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_ne" anim="crouchburstshot_EK"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_sw" anim="crouchburstshot_DNY"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_se" anim="crouchburstshot_DK"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_w" anim="crouchburstshot_NY"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_e" anim="crouchburstshot_K"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_n" anim="crouchburstshot_E"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_s" anim="crouchburstshot_D"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_nw" anim="crouchburstshot_ENY"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_ne" anim="crouchburstshot_EK"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_sw" anim="crouchburstshot_DNY"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/crouchburstshoot_se" anim="crouchburstshot_DK"/>
 
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_w" anim="vault_NY"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_e" anim="vault_K"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_n" anim="vault_E"/>
- 	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_s" anim="vault_D"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_nw" anim="vault_ENY"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_ne" anim="vault_EK"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_sw" anim="vault_DNY"/>
-  	<anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_se" anim="vault_DK"/>
-
-  	<anim src="units/xenonaut/armour.buzzard/none/hover_w" anim="hover_NY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hover_e" anim="hover_K"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hover_n" anim="hover_E"/>
-    <anim src="units/xenonaut/armour.buzzard/none/hover_s" anim="hover_D"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hover_nw" anim="hover_ENY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hover_ne" anim="hover_EK"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hover_sw" anim="hover_DNY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hover_se" anim="hover_DK"/>
-
-  	<anim src="units/xenonaut/armour.buzzard/none/prehover_w" anim="prehover_NY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/prehover_e" anim="prehover_K"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/prehover_n" anim="prehover_E"/>
-    <anim src="units/xenonaut/armour.buzzard/none/prehover_s" anim="prehover_D"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/prehover_nw" anim="prehover_ENY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/prehover_ne" anim="prehover_EK"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/prehover_sw" anim="prehover_DNY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/prehover_se" anim="prehover_DK"/>
-
-  	<anim src="units/xenonaut/armour.buzzard/none/posthover_w" anim="posthover_NY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/posthover_e" anim="posthover_K"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/posthover_n" anim="posthover_E"/>
-    <anim src="units/xenonaut/armour.buzzard/none/posthover_s" anim="posthover_D"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/posthover_nw" anim="posthover_ENY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/posthover_ne" anim="posthover_EK"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/posthover_sw" anim="posthover_DNY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/posthover_se" anim="posthover_DK"/>
-
-  	<anim src="units/xenonaut/armour.buzzard/none/hoverglow_w" anim="hoverglow_NY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hoverglow_e" anim="hoverglow_K"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hoverglow_n" anim="hoverglow_E"/>
-    <anim src="units/xenonaut/armour.buzzard/none/hoverglow_s" anim="hoverglow_D"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hoverglow_nw" anim="hoverglow_ENY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hoverglow_ne" anim="hoverglow_EK"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hoverglow_sw" anim="hoverglow_DNY"/>
-  	<anim src="units/xenonaut/armour.buzzard/none/hoverglow_se" anim="hoverglow_DK"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_w" anim="vault_NY"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_e" anim="vault_K"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_n" anim="vault_E"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_s" anim="vault_D"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_nw" anim="vault_ENY"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_ne" anim="vault_EK"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_sw" anim="vault_DNY"/>
+    <anim src="units/xenonaut/armour.buzzard/weapon.MAGcarbine/vault_se" anim="vault_DK"/>
 
 	</state>
 
